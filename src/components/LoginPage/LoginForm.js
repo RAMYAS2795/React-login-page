@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Panel, Form, FormGroup, FormControl, Button } from 'react-bootstrap';
+import ScriptTag from 'react-script-tag';
 
+const Demo = props => (
+<ScriptTag type="text/javascript" src="/src/components/dashboardPage.js" />
+)
 
 const divStyle = {
   display: 'flex',
